@@ -13,6 +13,12 @@ def function2(x):
       y[pos]=math.sin(val)
     return y
 
+def function3(x):
+    y=list(np.zeros((len(xval)),dtype=float))
+    for pos,val in enumerate(x):
+      y[pos]=math.cos(val)
+    return y
+
 # creating xval using numpy to set range given that the standard range function is for integers only
 # using np.around to have exact evenly spaced numbers between -5.0 and 5.0 (inclusive, 0.1 apart) 
 # converting it to a list to match instructions of the exerrcises.
@@ -24,6 +30,9 @@ if(sys.argv[1]=="1"):
 if(sys.argv[1]=="2"):
     # if user entered argument 2 : 
     yval=function2(xval)
+if(sys.argv[1]=="3"):
+    # if user entered argument 3 : 
+    yval=function3(xval)
 else:
     # create null yval list as default case 
     yval=list(np.zeros((len(xval)),dtype=float))

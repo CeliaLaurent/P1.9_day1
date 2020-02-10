@@ -27,8 +27,8 @@ At this point, the banch `basics` contains the python script implementing these 
 ##### trigonometric
 
 - [x] Then create a second branch “trigonometric” off the trunk and implement three additional functions: 
-- [ ] f(x) = sin(x), as function number 2
-- [ ] f(x) = cos(x), as function number 3 
+- [x] f(x) = sin(x), as function number 2
+- [x] f(x) = cos(x), as function number 3 
 - [ ] f(x) = tan(x), as function number 4.
 
 ##### development
