@@ -12,8 +12,8 @@ The first steps of this exercises were developped inside a `basics` branch of th
 
 - [x] The resulting two lists shall be visualized with matplotlib as a plot with x and y values. 
 
-- The program shall take a number as command line argument and depending on that number, yval will be filled from a different function. 
-- Implement this basic program with support for only f(x) = x as function number 1. 
+- [x] The program shall take a number as command line argument and depending on that number, yval will be filled from a different function. 
+- [x] Implement this basic program with support for only f(x) = x as function number 1. 
 
 Write this program in stages (handle command line, fill lists, plot lists) and commit after each step is complete and the program is working this far.
 
