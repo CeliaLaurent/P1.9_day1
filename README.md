@@ -37,9 +37,9 @@ At this point, the banch `basics` contains the python script implementing these 
 
 ##### irrational
 
-- [ ] Create a third branch “irrational” off this “development” branch and implement the functions and update the usage message accordingly: 
+- [x] Create a third branch “irrational” off this “development” branch and implement the functions and update the usage message accordingly: 
   - [x] exp(x), 
-  - [ ] sqrt(|x|) 
+  - [x] sqrt(|x|) 
 
 ##### mergings
 

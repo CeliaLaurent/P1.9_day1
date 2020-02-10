@@ -13,11 +13,18 @@ def function2(x):
       y[pos]=math.exp(val)
     return y
 
+def function3(x):
+    y=list(np.zeros((len(x)),dtype=float))
+    for pos,val in enumerate(x):
+      y[pos]=math.sqrt(abs(val))
+    return y
+
 # adding usage instructions
 def usage():
     print("Usage: this scripts takes one <int> argument")
     print(" - 'python script.py 1' plots y=x")
     print(" - 'python script.py 2' plots y=exp(x)")
+    print(" - 'python script.py 3' plots y=sqrt(|x|)")
     sys.exit() 
 
 if(len(sys.argv)!=2):
@@ -34,6 +41,9 @@ if(sys.argv[1]=="1"):
 elif(sys.argv[1]=="2"):
     # if user entered argument 2 : 
     yval=function2(xval)
+elif(sys.argv[1]=="3"):
+    # if user entered argument 3 : 
+    yval=function3(xval)
 else:
     # create null yval list as default case 
     yval=list(np.zeros((len(xval)),dtype=float))
