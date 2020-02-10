@@ -8,8 +8,10 @@ The first steps of this exercises were developped inside a `basics` branch of th
 
 - [x] the git repository contains `script.py` which is compatible with python2 and python3; it creates a lists`xval` and populates xval with evenly spaced numbers between -5.0 and 5.0 (inclusive, 0.1 apart) 
 
-- a `yval` list will be populated with the corresponding y=f(x) values. 
-- The resulting two lists shall be visualized with matplotlib as a plot with x and y values. 
+- [x] a `yval` list first set to be empty, that will be lated populated with the corresponding y=f(x) values. 
+
+- [x] The resulting two lists shall be visualized with matplotlib as a plot with x and y values. 
+
 - The program shall take a number as command line argument and depending on that number, yval will be filled from a different function. 
 - Implement this basic program with support for only f(x) = x as function number 1. 
 
