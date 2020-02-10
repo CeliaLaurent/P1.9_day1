@@ -21,8 +21,9 @@ At this point, the banch `basics` contains the python script implementing these 
 
 ##### polynomial
 
-- Now create a branch “polynomial” off the trunk (aka “master”) and implement two additional functions: 
-- $f(x) = x^2, f(x) = x^3$ as number 2 and number 3. 
+- [x] Now create a branch “polynomial” off the trunk (aka “master”) and implement two additional functions: 
+  - [x] $f(x) = x^2$ as function number 2
+  - [ ] $ f(x) = x^3$ as function number 3. 
 
 ##### trigonometric
 
