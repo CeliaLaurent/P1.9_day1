@@ -4,12 +4,14 @@
 
 ##### basics
 
-- Create an empty local git repository and write a small plain python script (no subprograms, no classes, compatible with python2 and python3) that creates two lists (xval, yval) and populates xval with evenly spaced numbers between -5.0 and 5.0 (inclusive, 0.1 apart) and yval with the corresponding y=f(x) values. 
+The first steps of this exercises were developped inside a `basics` branch of the repository.
+
+- [x] the git repository contains `script.py` which is compatible with python2 and python3; it creates a lists`xval` and populates xval with evenly spaced numbers between -5.0 and 5.0 (inclusive, 0.1 apart) 
+
+- a `yval` list will be populated with the corresponding y=f(x) values. 
 - The resulting two lists shall be visualized with matplotlib as a plot with x and y values. 
 - The program shall take a number as command line argument and depending on that number, yval will be filled from a different function. 
 - Implement this basic program with support for only f(x) = x as function number 1. 
-
-
 
 Write this program in stages (handle command line, fill lists, plot lists) and commit after each step is complete and the program is working this far.
 
