@@ -33,7 +33,11 @@ At this point, the banch `basics` contains the python script implementing these 
 
 ##### development
 
-- Finally, create a branch “development” off of “master” and add support for printing a “Usage: ...“ message with a list of the supported functions and the corresponding numbers, if no arguments are given. Create a third branch “irrational” off this “development” branch and implement the functions: exp(x), and sqrt(|x|) and update the usage message accordingly.
+- [x] Finally, create a branch “development” off of “master” and add support for printing a “Usage: ...“ message with a list of the supported functions and the corresponding numbers, if no arguments are given.
+
+##### irrational
+
+- [x] Create a third branch “irrational” off this “development” branch and implement the functions: exp(x), and sqrt(|x|) and update the usage message accordingly.
 
 ##### mergings
 
