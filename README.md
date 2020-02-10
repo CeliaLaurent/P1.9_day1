@@ -44,7 +44,8 @@ At this point, the banch `basics` contains the python script implementing these 
 
 - [x] Switch to branch “polynomial” and merge in the changes from “development”. Then update the usage message as needed. 
 - Now switch to “trigonometric”, also merge from “development”, and update the usage message as well. 
-- Now switch back to “development” and and change the plot interval from [-5.0; 5.0] to [-3.0; 3.0]. Merge this change to the three branches “polynomial”, “trigonometric”, and “irrational”.
+- [x] Now switch back to “development” and and change the plot interval from [-5.0; 5.0] to [-3.0; 3.0]. 
+- [x] Merge this change to the three branches “polynomial”, “trigonometric”, and “irrational”.
 - Create a branch “release_candidate” from “development” and merge in “polynomial”,
 “trigonometric”, and then “irrational” and resolve any conflicts in between.
 - Update the usage message as needed. 
