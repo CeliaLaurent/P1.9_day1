@@ -4,7 +4,7 @@
 
 ##### basics
 
-The first steps of this exercises were developped inside a `basics` branch of the repository.
+The first steps of this exercises were developed inside a `basics` branch of the repository.
 
 - [x] the git repository contains `script.py` which is compatible with python2 and python3; it creates a lists`xval` and populates xval with evenly spaced numbers between -5.0 and 5.0 (inclusive, 0.1 apart) 
 
@@ -16,6 +16,8 @@ The first steps of this exercises were developped inside a `basics` branch of th
 - [x] Implement this basic program with support for only f(x) = x as function number 1. 
 
 Write this program in stages (handle command line, fill lists, plot lists) and commit after each step is complete and the program is working this far.
+
+At this point, the banch `basics` contains the python script implementing these basic functions, it was tested with both python2 and 3 and documentation was included, I can merge it into master.
 
 ##### polynomial
 
