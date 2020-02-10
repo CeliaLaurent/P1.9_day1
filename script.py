@@ -25,6 +25,18 @@ def function4(x):
       y[pos]=math.tan(val)
     return y
 
+# adding usage instructions
+def usage():
+    print("Usage: this scripts takes one <int> argument")
+    print(" - 'python script.py 1' plots y=x")
+    print(" - 'python script.py 2' plots y=sin(x)")
+    print(" - 'python script.py 3' plots y=cos(x)")
+    print(" - 'python script.py 4' plots y=tan(x)")
+    sys.exit() 
+
+if(len(sys.argv)!=2):
+    usage()
+
 # creating xval using numpy to set range given that the standard range function is for integers only
 # using np.around to have exact evenly spaced numbers between -5.0 and 5.0 (inclusive, 0.1 apart) 
 # converting it to a list to match instructions of the exerrcises.

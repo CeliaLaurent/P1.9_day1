@@ -33,12 +33,16 @@ At this point, the banch `basics` contains the python script implementing these 
 
 ##### development
 
-- Finally, create a branch “development” off of “master” and add support for printing a “Usage: ...“ message with a list of the supported functions and the corresponding numbers, if no arguments are given. Create a third branch “irrational” off this “development” branch and implement the functions: exp(x), and sqrt(|x|) and update the usage message accordingly.
+- [x] Finally, create a branch “development” off of “master” and add support for printing a “Usage: ...“ message with a list of the supported functions and the corresponding numbers, if no arguments are given.
+
+##### irrational
+
+- [x] Create a third branch “irrational” off this “development” branch and implement the functions: exp(x), and sqrt(|x|) and update the usage message accordingly.
 
 ##### mergings
 
 - Switch to branch “polynomial” and merge in the changes from “development”. Then update the usage message as needed. 
-- Now switch to “trigonometric”, also merge from “development”, and update the usage message as well. 
+- [x] Now switch to “trigonometric”, also merge from “development”, and update the usage message as well. 
 - Now switch back to “development” and and change the plot interval from [-5.0; 5.0] to [-3.0; 3.0]. Merge this change to the three branches “polynomial”, “trigonometric”, and “irrational”.
 - Create a branch “release_candidate” from “development” and merge in “polynomial”,
 “trigonometric”, and then “irrational” and resolve any conflicts in between.
